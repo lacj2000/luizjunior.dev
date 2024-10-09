@@ -1,0 +1,17 @@
+:root {
+   --white: #F5FFFB;
+   --black: #000000;
+   --dark-gray: #121214;
+}
+
+@font-face {
+    font-family:'Jura';
+    src:url("../fonts/Jura-VariableFont_wght.ttf");
+}
+
+
+body {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    font-family: 'Jura';
+}

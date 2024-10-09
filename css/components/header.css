@@ -1,0 +1,25 @@
+    header {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        align-items: center;
+        justify-content: space-around;
+        background-color: var(--black);
+        height: 5rem;
+        z-index: 1000;
+
+        a {
+            text-decoration: none;
+            color: var(--white);
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            height: auto;
+            justify-content: space-between;
+        }
+
+    }
