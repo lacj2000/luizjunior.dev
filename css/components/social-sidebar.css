@@ -1,0 +1,26 @@
+.social-sidebar { 
+    z-index: 2000;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 33%;
+    flex-direction: column;
+    gap: 1rem;
+
+    a {
+        height: 3rem;
+        width: 3rem;
+        display: flex;  
+        text-decoration: none;
+        background-color: var(--black);
+        justify-content: center;
+        align-items: center;
+        border-start-end-radius: 0.3rem;
+        border-end-end-radius: 0.3rem;
+        
+        img {
+            width: 2rem; 
+            height: auto;
+        }
+    }
+}
