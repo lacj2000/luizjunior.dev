@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="css/index.css" >
     <link rel="stylesheet" href="css/components/spotlight.css">
     <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/contacts.css">
     <link rel="stylesheet" href="css/components/social-sidebar.css">
 </head>
 <body>
     <header>
         <a href="#">Luiz Jr</a>
         <nav>    
-           <!--  <a href="#skills">Skills</a>
+           <!-- 
+            <a href="#skills">Skills</a>
             <a href="#projects">Projetos</a>
             <a href="#about-me">Sobre</a>
+            -->
             <a href="#contacts">Contatos</a>
-         -->
+            
         </nav>
     </header>
-
+    
     <div class="social-sidebar">
         <a href="https://github.com/lacj2000" target="_blank">
             <img src="images/icons/github.png" alt="GitHub">
@@ -35,12 +38,12 @@
         <a href="mailto:luizjuniordeveloper@gmail.com">
             <img src="images/icons/envelope.png" alt="Email">
         </a>
-      </div>
-
+    </div>
+    
     <section id="spotlight">
         <div>
             <h2>Luiz Junior</h3>
-            <h1>Desenvolvedor e Analista de Sistemas</h2>
+                <h1>Desenvolvedor e Analista de Sistemas</h2>
         </div>
     </section>
     <!--
@@ -56,10 +59,27 @@
             <h2>Sobre</h2> 
         </section>
         
-        <section id="contacts">
-            <h2>Contatos</h2> 
-        </section>
         
         -->
+        <section id="contacts">
+            <h2>Fale Comigo</h2> 
+                <form action="https://formsubmit.co/luizjuniordeveloper@gmail.com" method="POST"> 
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"  required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email"  name="email" required>
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                    <input type="submit" value="Enviar">
+                    <input type="hidden" name="_subject" value="Novo Contato Site!">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+    </section>
+    <footer>
+        <p>
+            &copy; 2024 Luiz Junior
+        </p>
+    </footer>
 </body>
 </html>
